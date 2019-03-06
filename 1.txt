@@ -1,0 +1,9 @@
+為什麼要用ref取代id
+
+因為ref可以重複使用
+比如這種情況，如果something裡面有id，就會出問題
+for(){
+	{this.something}
+}
+
+https://www.andrewhfarmer.com/use-refs-not-ids/
